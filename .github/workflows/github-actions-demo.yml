@@ -23,5 +23,5 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Add your build and deployment steps here
-      # ...
+      - name: Echo a message
+        run: echo "Hello, world!"
